@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web:
+    container_name: web
+    image: kite01/maven_proj
+    restart: always
+    ports:
+      - '8787:8787'
